@@ -8,7 +8,16 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+    <StartupObject></StartupObject>
   </PropertyGroup>
+
+  <!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>-->
 
   <ItemGroup>
     <None Update="job_data.csv">
